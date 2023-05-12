@@ -321,3 +321,152 @@ li {
     font-family: cursive;
     font-size: 32px;
 }
+.two-flex{
+    column-gap: 60px;
+    overflow-x: scroll;
+    display: grid;
+    padding: 55px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+}
+.div-left{
+    background-color: #C1DCDC;
+    margin-bottom: 1em;
+    border-radius: 24px;
+    width: 900px;
+    height: 429px;
+}
+.div-right{
+    background-color: #C1DCDC;
+    margin-bottom: 1em;
+    border-radius: 24px;
+    width: 900px;
+    height: 429px;
+}
+.john{
+    width: 704px;
+    height: 81px;
+    color: rgba(30, 30, 30, 0.75);
+    font-size: 18px;
+    font-family: cursive;
+    padding: 40px 70px;
+    text-align: center;
+}
+.jojem{
+    width: 704px;
+    height: 81px;
+    color: rgba(30, 30, 30, 0.75);
+    font-size: 18px;
+    font-family: cursive;
+    padding: 40px 70px;
+    text-align: center;
+}
+.right-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.left-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.fe{
+    display: flex;
+}
+.feman{
+    padding: 60px 10px;
+}
+.doe{
+    font-size: 18px;
+    font-family: cursive;
+}
+.you{
+    font-size: 12px;
+    font-family: cursive;
+    color: rgba(30, 30, 30, 0.75);
+}
+.flex-right{
+    padding: 70px 100px;
+    display: flex;
+}
+.start{
+    padding: 10px;
+}
+.number-start{
+    font-size: 18px;
+    font-family: cursive;
+    padding: 10px;
+}
+.footer{
+    background-color: #C1DCDC;
+    height: 423px;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.green{
+    font-size: 18px;
+    font-family: cursive;
+    padding: 50px;
+}
+.help{
+    padding: 2px 50px;
+    font-family: cursive;
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 18px;
+
+}
+.lowboy{
+    font-size: 18px;
+    font-family: cursive;
+    color: rgba(30, 30, 30, 0.5);
+    padding: 40px 26px;
+}
+.social{
+    padding: 45px 55px;
+    column-gap: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+}
+.elip{
+    position: relative;
+}
+.face{
+    position: absolute;
+    transform: translate(-30px, 15px);
+}
+.elip-inta{
+    position: relative;
+}
+.inta{
+    position: absolute;
+    transform: translate(-34px ,15px);
+}
+.elip-twit{
+    position: relative;
+    
+}
+.twit{
+    position: absolute;
+    transform: translate(-34px ,15px);
+}
+.table{
+ padding: 57px 110px;
+}
+.table_right{
+    flex:40%;
+    display: flex;
+    justify-content: end;
+} 
+.table-item{
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.table-item p{
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 18px;
+    font-family: cursive;
+}
