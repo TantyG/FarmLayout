@@ -217,12 +217,22 @@ li {
 }
 .buttonleft{
     padding: 50px 40px;
+    
+}
+.buttom::after{ 
+    content: url('img/arrow.png');
+    display: inline-block;
+    width: 12px;
+    height: 12px;
 }
 .buttom{
     background-color: #C1DCDC;
     border-radius: 8px;
     width: 168px;
+    font-size: 18px;
+    font-family: cursive;
     height: 51px;
+    position: relative;
 }
 .text-about{
     text-align: center;
@@ -310,6 +320,15 @@ li {
         border-radius: 8px;
         width: 168px;
         height: 51px;
+        font-size: 18px;
+        font-family: cursive;
+}
+.buttonn::after{
+    content: url('img/arrow.png');
+    white-space: pre;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
 }
 .top-img2{
     text-align: center;
